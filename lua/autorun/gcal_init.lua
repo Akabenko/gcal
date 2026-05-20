@@ -1,4 +1,4 @@
-if SERVER then
+Fcif SERVER then
     AddCSLuaFile("gcal/gcal_lerp.lua")
     AddCSLuaFile("gcal/gcal_core.lua")
     AddCSLuaFile("gcal/gcal_compat.lua")
@@ -169,7 +169,7 @@ if CLIENT then
             local msg2 = "Please disable the conflicting Workshop addons to prevent animation conflicts and performance issues. GCAL is a complete replacement! :3"
             
             MsgC(Color(255, 0, 0), msg .. "\n")
-            MsgC(Color(255, 255, 255), msg2 .. "\n")
+            MsgC(color_white, msg2 .. "\n")
 
             if #mountedConflicts > 0 then
                 local displays = {}
